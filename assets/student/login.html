@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="#">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:image:secure_url" content="">
+    <meta property="og:image:type" content="">
+    <meta property="og:image:width" content="">
+    <meta property="og:image:height" content="">
+
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+	<title>Login</title>
+	
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">	
+    <link rel="shortcut icon" href="https://metroui.org.ua/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://metroui.org.ua/favicon.ico" type="image/x-icon">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+    <link href="css/descktop.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="container-box">
+		<div class="login-box">
+		
+			<h1 class="white">Welcome</h1>
+			<form class="form">
+				<input type="text" placeholder="Username">
+				<input type="password" placeholder="Password">
+				<button type="submit" id="login-button">Login</button>
+			</form>
+		</div>
+	</div>
+	
+	<ul class="bg-bubbles">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/metro.js"></script>
+<script src="js/desktop.js"></script>
+
+<script>
+ $("#login-button").click(function(event){
+		 event.preventDefault();
+	 
+	 $('form').fadeOut(500);
+	 $('.wrapper').addClass('form-success');
+});
+</script>
+
+
+</body>
+</html>

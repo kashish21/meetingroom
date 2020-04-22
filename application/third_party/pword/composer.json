@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpoffice/phpword": "dev-master",
+        "paquettg/php-html-parser": "^1.7"
+    }
+}
